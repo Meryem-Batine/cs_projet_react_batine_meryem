@@ -7,26 +7,23 @@ import { useState } from "react"
 import { useNavigate } from "react-router-dom";
 
 export const Allproduct = () => {
-      //********** */
-  class Products {
-    constructor(name , type , price , stock , src){
-      this.name = name ;
-      this.type = type ;
-      this.price = price ;
-      this.stock = stock ;
-      this.src = src ;
+    //********** */
+    class Products {
+        constructor(name, type, price, stock, src) {
+            this.name = name;
+            this.type = type;
+            this.price = price;
+            this.stock = stock;
+            this.src = src;
+        }
     }
-  }
 
 
-//   const [panier , setPanier] = useState([]);
+    let navigation = useNavigate()
 
-
-let navigation = useNavigate()
-
-const send = () => {
-  navigation("/panier")
-}
+    const send = () => {
+        navigation("/panier")
+    }
 
 
 
@@ -63,12 +60,12 @@ const send = () => {
                                             <p>Herschel supply co 25l</p>
                                             <h5>$75.00</h5>
                                         </div>
-                                        <div className="prdt1 mx-2 ">
+                                        <div className="prdt1 mx-2 " onClick={send}>
                                             <img src={best3} alt="" srcset="" />
                                             <p>Herschel supply co 25l</p>
                                             <h5>$75.00</h5>
                                         </div>
-                                        <div className="prdt1 ">
+                                        <div className="prdt1 " onClick={send}>
                                             <img src={best1} alt="" srcset="" />
                                             <p>Herschel supply co 25l</p>
                                             <h5>$75.00</h5>
@@ -78,20 +75,20 @@ const send = () => {
                                 </div>
                                 <div className=" best_saler d-lg-flex justify-content-lg-center align-items-lg-center ">
                                     <div className='best d-block d-md-flex  d-lg-flex justify-content-lg-around align-content-lg-center mb-md-1 '>
-                                        <div className="prdt1 ">
+                                        <div className="prdt1 " onClick={send}>
                                             <img src={best2} alt="" srcset="" />
                                             <p>Herschel supply co 25l</p>
                                             <h5>$75.00</h5>
                                         </div>
-                                        <div className="prdt1 mx-2 ">
-                                        <button className="sale">Sale</button>
+                                        <div className="prdt1 mx-2 " onClick={send}>
+                                            <button className="sale">Sale</button>
 
                                             <img src={best3} alt="" srcset="" />
                                             <p>Herschel supply co 25l</p>
                                             <h5>$75.00</h5>
                                         </div>
-                                        <div className="prdt1 ">
-                                        <button className="nw_2">New</button>
+                                        <div className="prdt1 " onClick={send}>
+                                            <button className="nw_2">New</button>
 
                                             <img src={best1} alt="" srcset="" />
                                             <p>Herschel supply co 25l</p>
@@ -104,18 +101,18 @@ const send = () => {
 
                                 <div className=" best_saler d-lg-flex justify-content-lg-center align-items-lg-center ">
                                     <div className='best d-block d-md-flex  d-lg-flex justify-content-lg-around align-content-lg-center mb-md-1 '>
-                                        <div className="prdt1 ">
+                                        <div className="prdt1 " onClick={send}>
                                             <button className="nw_3">New</button>
                                             <img src={best2} alt="" srcset="" />
                                             <p>Herschel supply co 25l</p>
                                             <h5>$75.00</h5>
                                         </div>
-                                        <div className="prdt1 mx-2 ">
+                                        <div className="prdt1 mx-2 " onClick={send}>
                                             <img src={best3} alt="" srcset="" />
                                             <p>Herschel supply co 25l</p>
                                             <h5>$75.00</h5>
                                         </div>
-                                        <div className="prdt1 ">
+                                        <div className="prdt1 " onClick={send}>
                                             <img src={best1} alt="" srcset="" />
                                             <p>Herschel supply co 25l</p>
                                             <h5>$75.00</h5>
@@ -130,18 +127,18 @@ const send = () => {
                                 {/*  */}
                                 <div className=" best_saler d-lg-flex justify-content-lg-center align-items-lg-center ">
                                     <div className='best d-block d-md-flex  d-lg-flex justify-content-lg-around align-content-lg-center mb-md-1 '>
-                                        <div className="prdt1 ">
+                                        <div className="prdt1 " onClick={send}>
                                             <button className="nw">New</button>
                                             <img src={best2} alt="" srcset="" />
                                             <p>Herschel supply co 25l</p>
                                             <h5>$75.00</h5>
                                         </div>
-                                        <div className="prdt1 mx-2 ">
+                                        <div className="prdt1 mx-2 " onClick={send}>
                                             <img src={best3} alt="" srcset="" />
                                             <p>Herschel supply co 25l</p>
                                             <h5>$75.00</h5>
                                         </div>
-                                        <div className="prdt1 ">
+                                        <div className="prdt1 " onClick={send}>
                                             <img src={best1} alt="" srcset="" />
                                             <p>Herschel supply co 25l</p>
                                             <h5>$75.00</h5>
@@ -154,18 +151,18 @@ const send = () => {
 
                                 <div className=" best_saler d-lg-flex justify-content-lg-center align-items-lg-center ">
                                     <div className='best d-block d-md-flex  d-lg-flex justify-content-lg-around align-content-lg-center mb-md-1 bg-danger'>
-                                        <div className="prdt1 ">
+                                        <div className="prdt1 " onClick={send}>
                                             <button className="nw">New</button>
                                             <img src={best2} alt="" srcset="" />
                                             <p>Herschel supply co 25l</p>
                                             <h5>$75.00</h5>
                                         </div>
-                                        <div className="prdt1 mx-2 ">
+                                        <div className="prdt1 mx-2 " onClick={send}>
                                             <img src={best3} alt="" srcset="" />
                                             <p>Herschel supply co 25l</p>
                                             <h5>$75.00</h5>
                                         </div>
-                                        <div className="prdt1 ">
+                                        <div className="prdt1 " onClick={send}>
                                             <img src={best1} alt="" srcset="" />
                                             <p>Herschel supply co 25l</p>
                                             <h5>$75.00</h5>
@@ -177,18 +174,18 @@ const send = () => {
 
                                 <div className=" best_saler d-lg-flex justify-content-lg-center align-items-lg-center ">
                                     <div className='best d-block d-md-flex  d-lg-flex justify-content-lg-around align-content-lg-center mb-md-1 bg-danger'>
-                                        <div className="prdt1 ">
+                                        <div className="prdt1 " onClick={send}>
                                             <button className="nw">New</button>
                                             <img src={best2} alt="" srcset="" />
                                             <p>Herschel supply co 25l</p>
                                             <h5>$75.00</h5>
                                         </div>
-                                        <div className="prdt1 mx-2 ">
+                                        <div className="prdt1 mx-2 " onClick={send}>
                                             <img src={best3} alt="" srcset="" />
                                             <p>Herschel supply co 25l</p>
                                             <h5>$75.00</h5>
                                         </div>
-                                        <div className="prdt1 ">
+                                        <div className="prdt1 " onClick={send}>
                                             <img src={best1} alt="" srcset="" />
                                             <p>Herschel supply co 25l</p>
                                             <h5>$75.00</h5>
@@ -203,18 +200,18 @@ const send = () => {
                                 {/*  */}
                                 <div className=" best_saler d-lg-flex justify-content-lg-center align-items-lg-center ">
                                     <div className='best d-block d-md-flex  d-lg-flex justify-content-lg-around align-content-lg-center mb-md-1 bg-danger'>
-                                        <div className="prdt1 ">
+                                        <div className="prdt1 " onClick={send}>
                                             <button className="nw">New</button>
                                             <img src={best2} alt="" srcset="" />
                                             <p>Herschel supply co 25l</p>
                                             <h5>$75.00</h5>
                                         </div>
-                                        <div className="prdt1 mx-2 ">
+                                        <div className="prdt1 mx-2 " onClick={send}>
                                             <img src={best3} alt="" srcset="" />
                                             <p>Herschel supply co 25l</p>
                                             <h5>$75.00</h5>
                                         </div>
-                                        <div className="prdt1 ">
+                                        <div className="prdt1 " onClick={send}>
                                             <img src={best1} alt="" srcset="" />
                                             <p>Herschel supply co 25l</p>
                                             <h5>$75.00</h5>
@@ -421,7 +418,7 @@ const send = () => {
                     {/*  */}
                     <div className='filter'>
                         <h4>Filter</h4>
-                        <input type="search"  placeholder="Search Products..." />
+                        <input type="search" placeholder="Search Products..." />
 
                     </div>
                 </div>

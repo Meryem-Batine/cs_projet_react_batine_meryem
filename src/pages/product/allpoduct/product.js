@@ -71,8 +71,6 @@ const send = () => {
                                         <div className="prdt1 ">
                                             <img src={best1} alt="" srcset="" />
                                             <p>Herschel supply co 25l</p>
-                                            <p>Herschel supply co 25l</p>
-
                                             <h5>$75.00</h5>
                                         </div>
                                     </div>

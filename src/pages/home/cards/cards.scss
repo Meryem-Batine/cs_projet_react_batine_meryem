@@ -1,0 +1,293 @@
+.cartes{
+    max-width: 100vw;
+    height: 40vh;
+    // background-color: aqua;
+    .carte{
+        display: flex;
+        // justify-content: space-evenly;
+        justify-content: center;
+        gap: 25px;
+        .cart{
+            width: 17vw;
+            height: 35vh;
+            // background-color: brown;
+            position: relative;
+            margin-top: 20px;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+
+            }
+
+            .btn{
+                position: absolute;
+                transform: translate(-50%,-50%);
+                top: 89%;
+                left: 50%;
+                font-family:  thinfont;
+                font-weight: 600;
+                &:focus{
+                    outline: none;
+                    border: none;
+                }
+                button{
+                    width: 150px;
+                    height: 38px;
+                    border: none;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+// & 4K
+
+@media (min-width:1390px) and (max-width:1440px)
+{
+.cartes{
+    max-width: 100vw;
+    height: 40vh;
+    // background-color: aqua;
+    .carte{
+        display: flex;
+        // justify-content: space-evenly;
+        justify-content: center;
+        gap: 28px;
+        .cart{
+            width: 22vw;
+            height: 35vh;
+            // background-color: brown;
+            position: relative;
+            margin-top: 20px;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .btn{
+                position: absolute;
+                transform: translate(-50%,-50%);
+                top: 89%;
+                left: 50%;
+                font-family:  thinfont;
+                button{
+                    width: 220px;
+                    height: 38px;
+                    border: none;
+                    font-size: 18px;
+                    cursor: pointer;
+                    font-weight: 700;
+
+                }
+            }
+        }
+    }
+}
+}
+
+
+// & tablette
+@media (min-width:560px) and (max-width:770px)
+{
+    .cartes{
+        max-width: 100vw;
+        height: 40vh;
+        // background-color: aqua;
+        .carte{
+            display: flex;
+            // justify-content: space-evenly;
+            justify-content: center;
+            gap: 28px;
+            .cart{
+                width: 25vw;
+                height: 35vh;
+                // background-color: brown;
+                position: relative;
+                margin-top: 20px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+    
+                .btn{
+                    position: absolute;
+                    transform: translate(-50%,-50%);
+                    top: 89%;
+                    left: 50%;
+                    font-family:  thinfont;
+                    font-weight: 600;
+                    border: none;
+                    &:focus{
+                        outline: none;
+                    }
+                    button{
+                        width: 140px;
+                        height: 38px;
+                        border: none;
+                        font-size: 14px;
+                        cursor: pointer;
+                        font-weight: 600;
+                        border: none;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+// * mode 375px
+
+@media (min-width:360px) and (max-width:400px)
+{
+    .cartes{
+        max-width: 100vw;
+        height: auto;
+        padding-bottom: 20px;
+        .carte{
+            display: flex;
+            // justify-content: space-evenly;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 28px;
+            .cart{
+                width: 60vw;
+                height: 35vh;
+                // background-color: brown;
+                position: relative;
+                margin-top: 20px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+    
+                .btn{
+                    position: absolute;
+                    transform: translate(-50%,-50%);
+                    top: 89%;
+                    left: 50%;
+                    font-family:  thinfont;
+                    font-weight: 600;
+                    border: none;
+                    &:focus{
+                        outline: none;
+                    }
+                    button{
+                        width: 140px;
+                        height: 38px;
+                        border: none;
+                        font-size: 12px;
+                        cursor: pointer;
+                        font-weight: 600;
+                        border: none;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:400px) and (max-width:475px)
+{ 
+    .cartes{
+        max-width: 100vw;
+        height: auto;
+        padding-bottom: 20px;
+        .carte{
+            display: flex;
+            // justify-content: space-evenly;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 28px;
+            .cart{
+                width: 58vw;
+                height: 40vh;
+                // background-color: brown;
+                position: relative;
+                margin-top: 20px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+    
+                .btn{
+                    position: absolute;
+                    transform: translate(-50%,-50%);
+                    top: 89%;
+                    left: 50%;
+                    font-family:  thinfont;
+                    font-weight: 600;
+                    border: none;
+                    &:focus{
+                        outline: none;
+                    }
+                    button{
+                        width: 140px;
+                        height: 38px;
+                        border: none;
+                        font-size: 12px;
+                        cursor: pointer;
+                        font-weight: 600;
+                        border: none;
+
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
+@media (min-width:1000px) and (max-width:1030px)
+{
+.cartes{
+    max-width: 100vw;
+    height: 40vh;
+    // background-color: aqua;
+    .carte{
+        display: flex;
+        // justify-content: space-evenly;
+        justify-content: center;
+        gap: 28px;
+        .cart{
+            width: 25vw;
+            height: 35vh;
+            // background-color: brown;
+            position: relative;
+            margin-top: 20px;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .btn{
+                position: absolute;
+                transform: translate(-50%,-50%);
+                top: 89%;
+                left: 50%;
+                font-family:  thinfont;
+                font-weight: 600;
+                button{
+                    width: 200px;
+                    height: 38px;
+                    border: none;
+                    font-size: 16px;
+                    cursor: pointer;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+}

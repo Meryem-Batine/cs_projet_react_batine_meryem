@@ -1,28 +1,55 @@
 import { NavLink } from "react-router-dom"
+import logo from "../assets/images/logo.png.webp"
+import "./Header.scss"
+import { faHeart } from "@fortawesome/free-regular-svg-icons"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBagShopping } from "@fortawesome/free-solid-svg-icons"
+import { useState } from "react"
 
-export const Header = () =>{
-    return (
+export const Header=()=>
+{
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+      setMenuOpen(!menuOpen);
+    };
+    return(
         <>
-     <header className="mt-0 ">
-                <div class="nav-bar  ">
-                <NavLink className=" nav-link logo" >LOGO</NavLink>
-                    {/* <a class="navbar-brand w-25 bg-secondary mx-9" href="#"></a> */}
-                    {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button> */}
-                    <div className="navgt" id="navgt">
-                        <div className="nav-items d-flex ">
-                            <NavLink className="nav-link   nav_0" >Home</NavLink>
-                            <NavLink className="nav-link   nav_0" >Product</NavLink>
-                            <NavLink className="nav-link   nav_0" >About</NavLink>
-                            <NavLink className="nav-link   nav_0" >Contact</NavLink>
-                        </div>
-                    </div>
-                </div>
-            {/* <div className="bg-danger user mb-1">
+            {/* <h1>helo</h1> */}
+            <header>
+            <div className="header">
 
-            </div> */}
-     </header>
+            </div>
+
+            <div class="icon" onClick={toggleMenu}>
+        <span></span>
+        <span></span>
+        <span></span>
+             </div>
+
+
+            <nav>
+            <div className="logo">
+                <img src={logo} alt="" srcset="" />
+            </div>
+
+            <div className={menuOpen ? "menu open" : "menu"}>
+            <span class="close" onClick={toggleMenu}>X</span>
+
+                <NavLink className="lien_menu" to={"/"}>Home</NavLink>
+                <NavLink className="lien_menu" to={"/product"}>Product</NavLink>
+                <NavLink className="lien_menu" to={"/about"}>About</NavLink>
+                <NavLink className="lien_menu" to={"/contact"}>Contact</NavLink>
+            </div>
+
+            <div className="favoris">
+            <NavLink className="lien_menu" to={"/coup"}><FontAwesomeIcon  icon={faHeart} className="icone "/></NavLink>
+            <NavLink className="lien_menu" to={"/panier"}><FontAwesomeIcon icon={faBagShopping} className="icone"/></NavLink>
+            </div>
+
+            </nav>
+
+            </header>
         </>
     )
 }

@@ -1,0 +1,121 @@
+
+.background{
+    max-width: 100vw;
+    height: 38vh;
+.back{
+    width: 100%;
+    height: 100%;
+    background-image: url("../../../assets/images/AEEBEF69-80F7-4FEA-956E-E96244646071.jpg");
+    background-position: bottom;
+    background-size: center ;
+    background-position:center;
+    background-size: cover;
+    background-blend-mode:darken;
+    position: relative;
+}
+.contac{
+    position: absolute;
+    color: white;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 45px;
+    // transform: translate(-20,-20%);
+    top: 28%;
+    left: 40%;
+}
+}
+
+// * mode 375px
+
+@media (min-width:360px) and (max-width:476px)
+{
+    .background{
+        max-width: 100vw;
+        height: 40vh;
+    .back{
+        width: 100%;
+        height: 100%;
+    
+    }
+    .contac{
+        font-family: poppins;
+        font-weight: 600;
+        font-size: 45px;
+        transform: translate(-20,-20%);
+        top: 30%;
+        left: 25%;
+    }
+    }
+}
+
+
+
+// & tablette
+@media (min-width:560px) and (max-width:770px)
+{
+    .background{
+        max-width: 100vw;
+        height: 40vh;
+    .back{
+        width: 100%;
+        height: 100%;
+    
+    }
+    .contac{
+        font-family: poppins;
+        font-weight: 600;
+        font-size: 50px;
+        transform: translate(-20,-20%);
+        top: 28%;
+        left: 35%;
+    }
+    }
+}
+
+// & 1024
+@media (min-width:800px) and (max-width:1030px)
+{
+    .background{
+        max-width: 100vw;
+        height: 40vh;
+    .back{
+        width: 100%;
+        height: 100%;
+    
+    }
+    .contac{
+      
+        font-family: poppins;
+        font-weight: 600;
+        font-size: 50px;
+        transform: translate(-20,-20%);
+        top: 28%;
+        left: 40%;
+    }
+    }
+}
+
+
+// & 4K
+
+@media (min-width:1390px) and (max-width:1440px)
+{
+    .background{
+        max-width: 100vw;
+        height: 40vh;
+    .back{
+        width: 100%;
+        height: 100%;
+    
+    }
+    .contac{
+      
+        font-family: poppins;
+        font-weight: 600;
+        font-size: 60px;
+        transform: translate(-20,-20%);
+        top: 28%;
+        left: 40%;
+    }
+    }
+}

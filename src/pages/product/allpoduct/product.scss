@@ -1,0 +1,124 @@
+.product{
+    width: 100%;
+
+    .bg-product{
+        height: 40vh;
+        width: 100%;
+        background-image: url("../../../assets/images/zara-featured-Image.jpg");
+        background-position: bottom;
+        background-size: center ;
+        background-position:center;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h1{
+            font-size: 60px;
+            font-family: poppins;
+        }
+        p{
+            font-size: 22px;
+        }
+    }
+    .shop{
+        width: 95%;
+        h4{
+            font-family: poppins;
+        }
+
+        .all_div {
+            margin-left:160px;
+
+            .best_saler {
+                .best {
+                    .prdt1 {
+                        img{
+                            height: 350px;
+                            width: 300px;
+                            margin-top: 20px;
+                        }
+
+                        p{
+                            margin-bottom: 0;
+                        }
+                        .nw {
+                            z-index: 1;
+                            position: absolute;
+                            top: 530px;
+                            left: 400px;
+                            border: none;
+                            border-radius: 20px;
+                            background-color: #66a8a6;
+                            font-size: 12px;
+                            color: white;
+                            font-weight: 700;
+                            width: 50px;
+                            height: 20px;
+                        }
+                        .nw_2{
+                            z-index: 1;
+                            position: absolute;
+                            top: 980px;
+                            left: 1080px;
+                            border: none;
+                            border-radius: 20px;
+                            background-color: #66a8a6;
+                            font-size: 12px;
+                            color: white;
+                            font-weight: 700;
+                            width: 50px;
+                            height: 20px;
+                        }
+                        .sale {
+                            z-index: 1;
+                            position: absolute;
+                            top: 980px;
+                            left: 740px;
+                            border: none;
+                            border-radius: 20px;
+                            background-color:  #e65540;
+                            font-size: 12px;
+                            color: white;
+                            font-weight: 700;
+                            width: 50px;
+                            height: 20px;
+                        }
+                        .nw_3{
+                            z-index: 1;
+                            position: absolute;
+                            top: 1420px;
+                            left: 400px;
+                            border: none;
+                            border-radius: 20px;
+                            background-color: #66a8a6;
+                            font-size: 12px;
+                            color: white;
+                            font-weight: 700;
+                            width: 50px;
+                            height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+        .filter{
+            width: 270px;
+            position: absolute;
+            top: 720px;
+            input{
+                margin-left: 10px;
+                height: 40px;
+                width: 250px;
+                font-family: thinfont;
+                font-size: 14px;
+                font-weight: 600;
+                border: 1px solid black;
+            }
+        }
+
+    
+        }
+
+
+    }

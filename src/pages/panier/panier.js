@@ -1,13 +1,13 @@
 import React from "react";
 import { Header } from "../../layouts/Header";
-import { Pgabout } from "./components/pgAbout";
 import { Footer} from "../../layouts/Footer";
+import { Pgpanier } from "./components/panier";
 
-export const About = () => {
+export const Panier = () => {
   return (
     <>
     <Header />
-    <Pgabout/>
+    <Pgpanier/>
     <Footer/> 
     </>
   );

@@ -1,0 +1,292 @@
+.nav_tab {
+    padding-top: 50px;
+    color: gray;
+    font-family: thinfont;
+    width: 100vw;
+
+    h3 {
+        font-family: poppins;
+        font-weight: 300;
+        color: black;
+    }
+
+    ul {
+        li {
+            font-weight: 600;
+
+            button {
+                color: gray;
+            }
+        }
+
+        button:hover {
+            color: black;
+            text-decoration: underline 1px solid black;
+        }
+    }
+
+    .all-tab {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .all_div {
+            width: 100%;
+            margin-right: 35px;
+
+            .best_saler {
+                width: 100%;
+
+                .best {
+                    width: 100%;
+
+                    .prdt1 {
+                        width: 280px;
+
+                        .nw {
+                            z-index: 1;
+                            position: absolute;
+                            top: 1240px;
+                            left: 110px;
+                            border: none;
+                            border-radius: 20px;
+                            background-color: #66a8a6;
+                            font-size: 12px;
+                            color: white;
+                            font-weight: 700;
+                            width: 50px;
+                            height: 20px;
+                        }
+
+                        .sale {
+                            z-index: 1;
+                            position: absolute;
+                            top: 1240px;
+                            left: 1080px;
+                            border: none;
+                            border-radius: 20px;
+                            background-color:  #e65540;
+                            font-size: 12px;
+                            color: white;
+                            font-weight: 700;
+                            width: 50px;
+                            height: 20px;
+                        }
+
+                        img {
+                            position: relative;
+                            height: 350px;
+                            width: 280px;
+                            margin-bottom: 5px;
+
+                        }
+
+                        p {
+                            font-weight: 600;
+                            color: gray;
+                            font-size: 15px;
+
+                        }
+
+                        h5 {
+                            font-weight: 600;
+                            font-size: 16px;
+                        }
+
+                        .oldprix {
+                            text-decoration: line-through;
+                        }
+
+                        .slprix {
+                            color: #e65540;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//* laptop 
+@media (min-width:800px) and (max-width:1030px){
+    .nav_tab {
+        padding-top: 50px;
+        width: 100%;
+    
+        .all-tab {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            .all_div {
+                width: 100%;
+                margin-right: 20px;
+    
+                .best_saler {
+                    width: 100%;
+    
+                    .best {
+                        width: 100%;
+    
+                        .prdt1 {
+                            width: 200px;
+    
+                            .nw {
+                                z-index: 1;
+                                position: absolute;
+                                top: 1150px;
+                                left: 55px;
+                                border: none;
+                                border-radius: 20px;
+                                background-color: rgb(58, 132, 107);
+                                font-size: 12px;
+                                color: white;
+                                font-weight: 700;
+                                width: 50px;
+                                height: 20px;
+                            }
+    
+                            .sale {
+                                z-index: 1;
+                                position: absolute;
+                                top: 1150px;
+                                left: 775px;
+                                border: none;
+                                border-radius: 20px;
+                                background-color: rgb(255, 79, 25);
+                                font-size: 12px;
+                                color: white;
+                                font-weight: 700;
+                                width: 50px;
+                                height: 20px;
+                            }
+    
+                            img {
+                                position: relative;
+                                height: 300px;
+                                width: 220px;
+                                margin-bottom: 5px;
+    
+                            }
+                        }
+                    }
+                }}
+            }
+        }
+}
+
+//* tablet
+@media (max-width:769px) {
+    .nav_tab {
+        background-color: aqua;
+        padding-top: 40px;
+        width: 100vw;
+        height: 160vh;
+
+        ul {
+            li {
+                button:hover {
+                    color: black;
+                }
+
+                button:active {
+                    color: black;
+                }
+            }
+        }
+
+        .all-tab {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .all_div {
+                .best_saler {
+                    // width: 40%;
+                    width: 70%;
+                    margin-left: 49px;
+
+                    .best {
+                        .prdt1 {
+                            width: 300px;
+
+                            .nw {
+                                z-index: 1;
+                                position: absolute;
+                                top: 878px;
+                                left: 80px;
+                                border: none;
+                                border-radius: 20px;
+                                background-color: rgb(58, 132, 107);
+                                font-size: 12px;
+                                color: white;
+                                font-weight: 700;
+                                width: 50px;
+                                height: 20px;
+                            }
+
+                            .sale {
+                                z-index: 1;
+                                position: absolute;
+                                top: 1318px;
+                                left: 400px;
+                                border: none;
+                                border-radius: 20px;
+                                background-color: rgb(255, 79, 25);
+                                font-size: 12px;
+                                color: white;
+                                font-weight: 700;
+                                width: 50px;
+                                height: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+//* mobile
+@media (min-width:375px) and (max-width:426px) {
+    .nav_tab {
+        height: 290vh;
+
+        .all-tab {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .all_div {
+                .best_saler {
+                    .best {
+                        .prdt1 {
+                            img{
+                                margin-top: 20px;
+                            }
+                            p{
+                                margin-bottom: 0;
+                            }
+                            .nw {
+                                top: 1555px;
+                                left: 70px;
+                            }
+
+                            .sale {
+                                top: 2830px;
+                                left: 70px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+

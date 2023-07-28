@@ -1,0 +1,62 @@
+.panier{
+    .bg_coup{
+        height: 40vh;
+        width: 100%;
+        background-image: url("../../../assets/images/DoLJoLdX0AAampA.jpg");
+        background-position: bottom;
+        background-size: center ;
+        background-position:center;
+        font-family: poppins;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .price{
+        width: 400px;
+
+    }
+    .total{
+        width: 200px;
+    }
+    .fvr{
+        height: auto;
+        img{
+            height: 150px;
+            width: 120px;
+        }
+        .fvr_0{
+            width: 90%;
+        }
+        .total{
+            button{
+                border: none;
+                color: white;
+                background-color: black;
+                border-radius: 20px;
+            }
+        }
+        p{
+            margin-top: 10px;
+        }.allttl{
+            border: 1px solid grey;
+            height: 80px;
+            p{
+                margin-left: 90%;
+            }
+            button{
+                margin-left: 85%;
+                border: none;
+                color: white;
+                background-color: black;
+                border-radius: 50px;
+                width: 180px;
+            }
+        }
+        .plus{
+            height: 28px;
+            width: 80px;
+            border: 1px solid rgb(220, 218, 218);
+        }
+    }
+    } 

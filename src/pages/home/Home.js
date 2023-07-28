@@ -1,11 +1,21 @@
 import React from "react";
 import { Header } from "../../layouts/Header";
+import { Carousel } from "./components/carousel";
+import { Navtab} from "./navtab/navtab";
+import { Footer} from "../../layouts/Footer";
+import { Carte } from "./cards/cards";
+import { Video } from "./hmvideo/hmvideo";
 
 export const Home = () => {
   return (
     <>
     <Header />
-      <h1 className="text-red">Hello to HOME</h1>
+    <Carousel/>
+    <Carte/>
+    <Navtab/>
+    <Video/>
+
+    <Footer/>
     </>
   );
 };
